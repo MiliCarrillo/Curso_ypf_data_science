@@ -1,0 +1,31 @@
+# ========================================
+# Archivos de Jupyter y Python
+# ========================================
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ========================================
+# Entornos Virtuales (Conda/Pip)
+# ========================================
+env/
+venv/
+.env/
+.conda/
+
+# ========================================
+# Archivos de VS Code y Windows
+# ========================================
+.vscode/
+Thumbs.db
+desktop.ini
+
+# ========================================
+# Exclusión de Datos Pesados
+# ========================================
+# Nota: Si el CSV de StudentsPerformance es pequeño, puedes dejarlo subir. 
+# Si tuvieras datasets pesados, descomentarías la línea de abajo:
+# DataSets/*.csv
+# *.zip
+# *.parquet
